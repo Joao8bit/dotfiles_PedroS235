@@ -21,9 +21,7 @@ alias gs='git status'
 
 # Alias to navigate to the ros2 workspace
 alias ros="cd $HOME/dev_ws/ros_ws/"
-
-# Sage math
-alias sage="sh $HOME/.sage/sage/sage"
+alias sros="source /opt/ros/humble/setup.zsh && source $HOME/.config/zsh/evaluation.zsh"
 
 # PlatformIO
 alias platform="source $HOME/.platformio/penv/bin/activate"

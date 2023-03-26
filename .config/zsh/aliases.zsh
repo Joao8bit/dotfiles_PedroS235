@@ -18,10 +18,15 @@ alias lz='lazygit'
 
 # Alias to call git status
 alias gs='git status'
-
-# Alias to navigate to the ros2 workspace
-alias ros="cd $HOME/dev_ws/ros_ws/"
-alias sros="source /opt/ros/humble/setup.zsh && source $HOME/.config/zsh/evaluation.zsh"
+alias gpl='git pull'
+alias gps='git push'
 
 # PlatformIO
 alias platform="source $HOME/.platformio/penv/bin/activate"
+
+# Linux dependent alias
+if [[ "$(uname)" == "Linux" ]] then
+    # Alias to source ros1 & ros2 workspaces
+    alias sros2="source /opt/ros/foxy/setup.zsh"
+    alias sros1="source /opt/ros/noetic/setup.zsh"
+fi

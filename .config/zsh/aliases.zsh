@@ -30,3 +30,5 @@ if [[ "$(uname)" == "Linux" ]] then
     alias sros2="source /opt/ros/foxy/setup.zsh"
     alias sros1="source /opt/ros/noetic/setup.zsh"
 fi
+
+alias c='clear'

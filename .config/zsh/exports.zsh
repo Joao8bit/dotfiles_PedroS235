@@ -6,4 +6,5 @@ export KEYTIMEOUT=1
 # ROS Humble
 if [[ "$(uname)" == "Linux" ]] then
     export _colcon_cd_root=/opt/ros/humble/
+    export PATH=$PATH:/usr/local/go/bin
 fi

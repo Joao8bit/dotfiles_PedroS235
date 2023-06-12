@@ -95,7 +95,7 @@ linux_setup(){
 
     print_info "Installing starship..."
     curl -sS https://starship.rs/install.sh | sh
-    print_info "Finished installing startship"
+    print_info "Finished installing starship"
 
     print_info "Installing tmux plugin manager..."
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm

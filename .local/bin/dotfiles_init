@@ -93,7 +93,7 @@ linux_setup(){
     curl -fLo ~/.local/share/fonts/FantasqueSansMono-Regular-NerdFontComplete.ttf --create-dirs
     print_info "Finished installing Nerd Fonts FantasqueSansMono"
 
-    print_info "Installing startship..."
+    print_info "Installing starship..."
     curl -sS https://starship.rs/install.sh | sh
     print_info "Finished installing startship"
 
